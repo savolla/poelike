@@ -1,5 +1,9 @@
-#include <iostream>
+#include "Player.h"
 #include "Player.cpp"
+#include "Map.h"
+#include "Map.cpp"
+#include "Monster.h"
+#include "Monster.cpp"
 
 int main(void) {
     Map twighlight_strand;
