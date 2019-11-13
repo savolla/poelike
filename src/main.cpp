@@ -4,7 +4,7 @@
 
 int main(void) {
 	Map twighlight_strand;
-	Marauder savolla(twighlight_strand, "savolla");
+	Player savolla(twighlight_strand, "savolla");
 	twighlight_strand.showTerrain();
 
 	char dir;
@@ -15,7 +15,6 @@ int main(void) {
 
 	return 0;
 }
-
 
 // TODO
 // Map.terrain's dimentions are not parametric

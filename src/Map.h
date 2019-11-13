@@ -10,8 +10,8 @@ class Map {
     public:
         std::string name;
         int level;
-        char wall;
-        char path;
+        char wall = '#';
+        char path = ' ';
 
         char terrain[5][5] = {
         {wall,wall,wall,wall,wall},
@@ -20,7 +20,8 @@ class Map {
         {wall,path,path,path,wall},
         {wall,wall,wall,wall,wall}};
 
-		Map();
+
+       // Map();
         void showTerrain();
 };
 
