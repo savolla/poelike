@@ -27,7 +27,7 @@ Player::Player(Map &m, std::string i_name) // constructor takes map and name par
 // move the Player around the map
 void Player::move(Map &m, char direction)
 {
-    m.terrain[Player::x_position][Player::y_position] = ' ';
+    m.terrain[Player::x_position][Player::y_position] = m.path;
     switch (direction) {
 
         // move to west

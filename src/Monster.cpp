@@ -12,7 +12,7 @@ MeleeSkeleton::MeleeSkeleton(Map &area)
     // place skeleton to random and appropriate place
     for (unsigned i=0; i<MAP_X_DIM; i++) { // iterate lines of the terrain
         for (unsigned j=0; j<MAP_Y_DIM; j++) { // iterate collumns of the terrain
-            if (area.terrain[i][j] == area.path) { // if there is a path (empty place)
+            if (area.terrain[i][j] == area.path) { // if there is a p (empty place)
                 // FIXME: make the skeleton spawn on random place
                 area.terrain[i][j] = MeleeSkeleton::skin; // place skeleton here
                 MeleeSkeleton::x_position = j; // save the current position for later use

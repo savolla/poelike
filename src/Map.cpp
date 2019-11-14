@@ -1,5 +1,10 @@
 #include "Map.h"
 
+Map::Map()
+{
+        Map::level = 1;
+}
+
 void Map::showTerrain()
 {
         for (unsigned i=0; i<MAP_X_DIM ; ++i) {
